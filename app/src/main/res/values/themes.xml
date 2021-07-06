@@ -1,0 +1,47 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.NewsApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/pink_light</item>
+        <item name="colorPrimaryVariant">@color/pink_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/pink_light</item>
+        <item name="colorSecondaryVariant">@color/pink_dark</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+
+        <item name="fontFamily">@font/poppins_regular</item>
+    </style>
+
+    <style name="Title_2">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="fontFamily">@font/poppins_semi_bold</item>
+    </style>
+
+    <style name="Title_1">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="fontFamily">@font/poppins_semi_bold</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="ToolBar" parent="@style/Widget.MaterialComponents.Toolbar.Primary">
+        <item name="elevation">4dp</item>
+        <item name="backgroundColor">@color/pink_light</item>
+    </style>
+
+    <style name="SearchBar" parent="@style/ThemeOverlay.AppCompat.Dark">
+        <item name="colorSecondary">@android:color/white</item>
+    </style>
+
+    <style name="NoActionBar" parent="Theme.NewsApp">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+    </style>
+
+</resources>

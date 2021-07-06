@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">NewsApp</string>
+
+    <string name="retry">Retry</string>
+    <string name="details">Details</string>
+    <string name="home">Home</string>
+    <string name="category">Category</string>
+    <string name="Search">Search</string>
+    <string name="msg_no_category">No Category Found</string>
+    <string name="msg_no_posts">No Posts Found</string>
+    <string name="favorite">Favorite</string>
+    <string name="not_favorite">Not Favorite</string>
+</resources>
