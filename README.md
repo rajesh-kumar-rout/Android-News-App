@@ -1,1 +1,1 @@
-# Android News App Using MVVM Design Patteren
+# Android News App Using MVVM Design Pattern
